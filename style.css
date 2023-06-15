@@ -1,0 +1,73 @@
+body {
+    background-color: #f3f3f3;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+#input {
+    width: 80%; 
+    height: 200px; 
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#output {
+    width: 80%;
+    height: 200px; 
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    width: 80%;
+    height: 40px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+@keyframes wave {
+    0%,100% {
+        transform: rotate(0)
+    }
+
+    20%,60% {
+        transform: rotate(-25deg)
+    }
+
+    40%,80% {
+        transform: rotate(10deg)
+    }
+}
+a#github {
+    z-index: 1000
+}
+
+svg#github {
+    fill: #000;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    border: 0;
+    right: 0;
+    z-index: 1000
+}
+svg#github:hover .octo-arm {
+    animation: wave 560ms ease-in-out
+}
+.octo-arm {
+    transform-origin: 130px 106px
+}
+.casuallink {
+    position: absolute;
+    left: 80%;
+    top: 85%;
+}
