@@ -66,8 +66,3 @@ svg#github:hover .octo-arm {
 .octo-arm {
     transform-origin: 130px 106px
 }
-.casuallink {
-    position: absolute;
-    left: 80%;
-    top: 85%;
-}
