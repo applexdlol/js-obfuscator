@@ -25,7 +25,7 @@ body {
 }
 
 button {
-    width: 80%;
+    width: 10%;
     height: 40px;
     margin-top: 10px;
     border: 1px solid #ddd;
@@ -65,4 +65,18 @@ svg#github:hover .octo-arm {
 }
 .octo-arm {
     transform-origin: 130px 106px
+}
+.casuallink {
+    position: absolute;
+    left: 80%;
+    top: 85%;
+}
+
+label {
+    cursor: pointer;
+}
+  
+textarea {
+    width: 400px;
+    height: 150px;
 }
