@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.61.1/codemirror.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.61.1/codemirror.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.61.1/mode/javascript/javascript.min.js"></script>
-    <script src="app.js"></script>
+    <script src="app.js" defer></script>
 </head>
 <body>
     <a href="https://github.com/applexdlol" target="_blank" id="github" aria-label="View source on GitHub"><svg id="github" width="80" height="80" viewBox="0 0 250 250" aria-hidden="true">
@@ -20,17 +20,22 @@
     <form id="obfuscatorForm">
         <h3>Enter javascript here</h3>
         <textarea id="input">// This is an example
-var ex = "example";
-var string = "This is an";
+var pro = "Good";
+var string = "Luck";
+var array = ["Cracking", "me", "up"]
 
 function proFunction() {
-     console.log(`${string} ${ex}.`);
+     console.log(`${pro} ${string} ${array[0]} me.`);
 };
 proFunction();</textarea>
         <button id="submit">Submit</button>
+        <input type="checkbox" id="double_obfuscator" name="double obfuscator" value="doubleobfuscator" disabled>
+        <label for="double_obfuscator">Double obfuscation</label>
+        <input type="checkbox" id="base64_code" name="base64 code" value="xdlol" disabled>
+        <label for="base64_code">Base64 code</label>
         <h3>Obfuscated javascript</h3>
-        <h4>Copy and paste this code into <a href="https://obfuscator.io">obfuscator.io</a></h6>
-        <textarea id="output"></textarea>
+        <h4>Copy and paste this code into <a href="https://obfuscator.io" target="_blank">obfuscator.io</a> to make it even more complex.</h6>
+        <textarea id="output"></textarea>   
     </form>
 </body>
 </html>
